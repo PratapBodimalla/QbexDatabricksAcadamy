@@ -6,7 +6,7 @@
 ### 2. Assign the Role "Global Administrator"
 
 
-<img src= "image-3.png" alt="your-image-description" style="border: 2px solid grey;">
+<img src= "images/image-3.png" alt="your-image-description" style="border: 2px solid grey;">
 
 ### 3. Login to https://portal.azure.com/ with Newly craeted User
 
@@ -14,13 +14,13 @@
 ### 4. Search for Resource Databricks
 
 
-<img src= "image-2.png" alt="your-image-description" style="border: 2px solid grey;">!
+<img src= "images/image-2.png" alt="your-image-description" style="border: 2px solid grey;">!
 
 
 ### 5. Fill in the necessary Details
 
 
-<img src= "image-4.png" alt="your-image-description" style="border: 2px solid grey;">
+<img src= "images/image-4.png" alt="your-image-description" style="border: 2px solid grey;">
 
 
 ### 6. Click Create
@@ -29,4 +29,4 @@
 ### 7. Once the Databricks resource is created you can see the below screen
 
 <br></br>
-<img src= "image-6.png" alt="your-image-description" style="border: 2px solid grey;">
+<img src= "images/image-6.png" alt="your-image-description" style="border: 2px solid grey;">
