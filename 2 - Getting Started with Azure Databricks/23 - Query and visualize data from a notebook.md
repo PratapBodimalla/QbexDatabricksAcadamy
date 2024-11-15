@@ -21,3 +21,11 @@ group by product;
 ``` sql
 select count(*) from samples.bakehouse.sales_transactions
 ```
+
+## Create a Visualization
+
+```sql
+select product, sum(totalPrice)
+from samples.bakehouse.sales_transactions
+group by product;
+```
