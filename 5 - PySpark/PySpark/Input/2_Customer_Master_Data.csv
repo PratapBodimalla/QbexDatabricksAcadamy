@@ -1,0 +1,6 @@
+CustomeriD,CustomerName,CustomerBucket,CustomerRegion,LessThanFullTruckLoad,YearOnYearVolumeIncrease
+1,Amit Joshi,Bucket-1,South,Yes,No
+2,Divya Reddy,Bucket-2,North,No,Yes
+3,Rohan Patel,Bucket-1,South,Yes,No
+4,Nikhil Desai,Bucket-1,South,Yes,Yes
+5,Pooja Mehta,Bucket-2,South,No,No
