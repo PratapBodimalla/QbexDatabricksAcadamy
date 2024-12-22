@@ -1,0 +1,8 @@
+ProductID,ProductName,ProductCategory,ProductSubCategory
+1,Keyboard,Peripherals,Input Device
+2,Printer,Peripherals,Output Device
+3,Laptop,Computing Device,Portable Computer
+4,External Hard Drive,Storage,External Storage
+5,Wireless Mouse,Peripherals,Input Device
+6,Monitor,Peripherals,Output Device
+7,Webcam,Peripherals,Video Device
