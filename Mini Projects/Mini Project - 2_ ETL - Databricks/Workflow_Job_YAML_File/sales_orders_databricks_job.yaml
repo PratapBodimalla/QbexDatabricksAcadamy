@@ -1,0 +1,35 @@
+resources:
+  jobs:
+    sales_order_databricks_job:
+      name: sales_order_databricks_job
+      tasks:
+        - task_key: customer_master_task
+          notebook_task:
+            notebook_path: /Workspace/Users/databricks@bodimallreddyoutlook.onmicrosoft.com/DLT_Work/Data
+              Transformation in Spark/customer_master
+            source: WORKSPACE
+          existing_cluster_id: 0111-024022-ry87z4sn
+        - task_key: product_master_task
+          notebook_task:
+            notebook_path: /Workspace/Users/databricks@bodimallreddyoutlook.onmicrosoft.com/DLT_Work/Data
+              Transformation in Spark/product_master
+            source: WORKSPACE
+          existing_cluster_id: 0111-024022-ry87z4sn
+        - task_key: sales_orders_task
+          notebook_task:
+            notebook_path: /Workspace/Users/databricks@bodimallreddyoutlook.onmicrosoft.com/DLT_Work/Data
+              Transformation in Spark/sales_orders
+            source: WORKSPACE
+          existing_cluster_id: 0111-024022-ry87z4sn
+        - task_key: customer_product_sales_order_analysis_notebook
+          depends_on:
+            - task_key: customer_master_task
+            - task_key: product_master_task
+            - task_key: sales_orders_task
+          notebook_task:
+            notebook_path: /Workspace/Users/databricks@bodimallreddyoutlook.onmicrosoft.com/DLT_Work/Data
+              Transformation in Spark/SO_Data_Analysis
+            source: WORKSPACE
+          existing_cluster_id: 0111-024022-ry87z4sn
+      queue:
+        enabled: true

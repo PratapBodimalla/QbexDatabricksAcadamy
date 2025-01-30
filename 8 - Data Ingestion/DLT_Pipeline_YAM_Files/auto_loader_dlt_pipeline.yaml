@@ -1,0 +1,18 @@
+resources:
+  pipelines:
+    pipeline_auto_loader_dlt_pipeline:
+      name: auto_loader_dlt_pipeline
+      clusters:
+        - label: default
+          node_type_id: Standard_DS3_v2
+          driver_node_type_id: Standard_DS3_v2
+          num_workers: 1
+      libraries:
+        - notebook:
+            path: /Users/databricks@bodimallreddyoutlook.onmicrosoft.com/DLT_Work/Auto
+              Loader/2. Auto Loader
+      target: sample_schema_v1
+      development: true
+      edition: CORE
+      catalog: sample_catalog_v1
+      data_sampling: false

@@ -1,0 +1,24 @@
+-- Databricks notebook source
+-- MAGIC %md
+-- MAGIC ### Create and Manage Volumes
+-- MAGIC   1. Create Managed Volume ( UI & SQL )
+-- MAGIC   2. Create External Volume ( UI & SQL )
+-- MAGIC   3. Manage Files in Volume
+-- MAGIC
+-- MAGIC       - 3.a) Upload files to Volume
+-- MAGIC       - 3.b) Download files from a volume
+-- MAGIC       - 3.c) Delete files from a volume
+-- MAGIC       - 3.d) Create a blank directory
+-- MAGIC       - 3.e) Delete directories from a volume
+-- MAGIC       - 3.f) Create a table from data in a volume
+-- MAGIC       - 3.g) Programmatically work with files in volumes on Azure Databricks
+-- MAGIC           - Read Files
+-- MAGIC             - Python
+-- MAGIC             - SQL
+-- MAGIC             - Pandas
+-- MAGIC           - Utility commands for files in volumes
+-- MAGIC           - SQL commands for files in volumes
+-- MAGIC             - PUT INTO
+-- MAGIC             - GET
+-- MAGIC             - REMOVE
+-- MAGIC             - LIST

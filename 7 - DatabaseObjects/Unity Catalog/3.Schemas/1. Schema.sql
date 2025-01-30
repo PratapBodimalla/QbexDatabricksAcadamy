@@ -1,0 +1,7 @@
+-- Databricks notebook source
+-- MAGIC %md
+-- MAGIC ### Create and Manage Schema
+-- MAGIC   1. Create Schema - Default Location (catalog)
+-- MAGIC   2. Create Schema - Managed Location
+-- MAGIC   3. View Schema Details
+-- MAGIC   4. Delete Schema

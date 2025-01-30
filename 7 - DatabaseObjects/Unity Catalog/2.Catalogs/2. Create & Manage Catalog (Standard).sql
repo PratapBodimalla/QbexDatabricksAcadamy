@@ -1,0 +1,12 @@
+-- Databricks notebook source
+-- MAGIC %md
+-- MAGIC ### Create and Manage Standard Catalog
+-- MAGIC   1. How to Create a Standadrd Catalog using SQL
+-- MAGIC   2. How to Create a Standadrd Catalog using Databricks UI
+-- MAGIC   3. How to Create a Standadrd Catalog using SQL Using External Location
+-- MAGIC   4. List all the catalogs SQL / UI
+-- MAGIC   5. Get Details of a Catalog using SQL / UI
+-- MAGIC   6. How to Rename a Catalog
+-- MAGIC   7. How to Update a Catalog
+-- MAGIC   8. How to Delete a Catalog using SQL / UI
+-- MAGIC   9. Default Schemas in a Catalog

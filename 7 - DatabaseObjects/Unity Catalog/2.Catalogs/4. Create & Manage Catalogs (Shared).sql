@@ -1,0 +1,9 @@
+-- Databricks notebook source
+-- MAGIC %md
+-- MAGIC ### Create and Manage Shared Catalogs
+-- MAGIC   0. Pre-Requistes
+-- MAGIC   1. Create Reciepients 
+-- MAGIC   2. Create a Share
+-- MAGIC   3. Assign Recipients to a Share
+-- MAGIC   4. Add tables to Share
+-- MAGIC   5. How Reciepts will be able to access the data

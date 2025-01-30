@@ -1,0 +1,7 @@
+-- Databricks notebook source
+-- MAGIC %md ## Create and Manage Views in Databricks
+-- MAGIC 1. **Temporary Views**
+-- MAGIC 2. **Global Temporary Views**
+-- MAGIC 3. **Permanent Views**
+-- MAGIC 4. **Modifying and Dropping Views**
+-- MAGIC 5. **Using Views for Security and Abstraction**
